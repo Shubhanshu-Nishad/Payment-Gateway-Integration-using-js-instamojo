@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <title>metaeducaotr | Charity </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Bootsrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+
+    <!-- Template main Css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Modernizr -->
+    <script src="assets/js/modernizr-2.6.2.min.js"></script>
+
+
+
+    <script src="https://js.instamojo.com/v1/checkout.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        /* Start client-defined Callback Handler Functions */
+        function onOpenHandler() {
+            alert('Payments Modal is Opened');
+        }
+
+        function onCloseHandler() {
+            alert('Payments Modal is Closed');
+        }
+
+        function onPaymentSuccessHandler(response) {
+            alert('Payment Success');
+            console.log('Payment Success Response', response);
+        }
+
+        function onPaymentFailureHandler(response) {
+            alert('Payment Failure');
+            console.log('Payment Failure Response', response);
+        }
+        /* End client-defined Callback Handler Functions */
+
+        /* Configuring Handlers */
+        Instamojo.configure({
+            handlers: {
+                onOpen: onOpenHandler,
+                onClose: onCloseHandler,
+                onSuccess: onPaymentSuccessHandler,
+                onFailure: onPaymentFailureHandler
+            }
+        });
+
+        function onButtonClick() {
+            Instamojo.open('http://www.instamojo.com/@metaeducator');
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+    <header class="main-header">
+
+
+        <nav class="navbar navbar-static-top">
+
+            <div class="navbar-top">
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-sm-6 col-xs-12">
+
+                            <ul class="list-unstyled list-inline header-contact">
+                                <li> <i class="fa fa-phone"></i> <a href="tel:">+9455593295 </a> </li>
+                                <li> <i class="fa fa-envelope"></i> <a href="mailto:contact@sadaka.org">metaeducaotr@gmail.com</a> </li>
+                            </ul>
+                            <!-- /.header-contact  -->
+
+                        </div>
+
+                        <div class="col-sm-6 col-xs-12 text-right">
+
+                            <ul class="list-unstyled list-inline header-social">
+
+                                <li>
+                                    <a href="#"> <i class="fa fa-facebook"></i> </a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-twitter"></i> </a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-google"></i> </a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa-youtube"></i> </a>
+                                </li>
+                                <li>
+                                    <a href="#"> <i class="fa fa fa-pinterest-p"></i> </a>
+                                </li>
+                            </ul>
+                            <!-- /.header-social  -->
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="navbar-main">
+
+                <div class="container">
+
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                  </button>
+
+                        <a class="navbar-brand" href="index.html"><img src="assets/images/sadaka-logo.png" alt=""></a>
+
+                    </div>
+
+                    <div id="navbar" class="navbar-collapse collapse pull-right">
+
+                        <ul class="nav navbar-nav">
+
+                            <li><a class="is-active" href="index.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li class="has-child"><a href="#">CAUSES</a>
+
+                                <ul class="submenu">
+                                    <li class="submenu-item"><a href="causes.html">Causes list </a></li>
+                                    <li class="submenu-item"><a href="causes-single.html">Single cause </a></li>
+                                    <li class="submenu-item"><a href="causes-single.html">Single cause </a></li>
+                                    <li class="submenu-item"><a href="causes-single.html">Single cause </a></li>
+                                </ul>
+
+                            </li>
+                            <li><a href="gallery.html">GALLERY</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+
+                        </ul>
+
+                    </div>
+                    <!-- /#navbar -->
+
+                </div>
+                <!-- /.container -->
+
+            </div>
+            <!-- /.navbar-main -->
+
+
+        </nav>
+
+    </header>
+    <!-- /. main-header -->
+
+
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="homeCarousel" class="carousel slide carousel-home" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#homeCarousel" data-slide-to="1"></li>
+            <li data-target="#homeCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+
+                <img src="assets/images/slider/3.jpg" alt="">
+
+                <div class="container">
+
+                    <div class="carousel-caption">
+
+                        <h2 class="carousel-title bounceInDown animated slow">Because they need your help</h2>
+                        <h4 class="carousel-subtitle bounceInUp animated slow ">Do not let them down</h4>
+                        <a target="blank" onclick="onButtonClick()" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow">DONATE NOW</a>
+
+                    </div>
+                    <!-- /.carousel-caption -->
+
+                </div>
+
+            </div>
+            <!-- /.item -->
+
+
+            <div class="item ">
+
+                <img src="assets/images/slider/2.jpg" alt="">
+
+                <div class="container">
+
+                    <div class="carousel-caption">
+
+                        <h2 class="carousel-title bounceInDown animated slow">Together we can improve their lives</h2>
+                        <h4 class="carousel-subtitle bounceInUp animated slow"> So let's do it !</h4>
+                        <a onclick="onButtonClick()" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow">DONATE NOW</a>
+
+                    </div>
+                    <!-- /.carousel-caption -->
+
+                </div>
+
+            </div>
+            <!-- /.item -->
+
+
+
+
+            <div class="item ">
+
+                <img src="assets/images/slider/1.jpg" alt="">
+
+                <div class="container">
+
+                    <div class="carousel-caption">
+
+                        <h2 class="carousel-title bounceInDown animated slow">A penny is a lot of money, if you have not got a penny.</h2>
+                        <h4 class="carousel-subtitle bounceInUp animated slow">You can make the diffrence !</h4>
+                        <a onclick="onButtonClick()" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow">DONATE NOW</a>
+
+                    </div>
+                    <!-- /.carousel-caption -->
+
+                </div>
+
+            </div>
+            <!-- /.item -->
+
+        </div>
+
+        <a class="left carousel-control" href="#homeCarousel" role="button" data-slide="prev">
+            <span class="fa fa-angle-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="right carousel-control" href="#homeCarousel" role="button" data-slide="next">
+            <span class="fa fa-angle-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+    </div>
+    <!-- /.carousel -->
+
+    <div class="section-home about-us fadeIn animated">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-3 col-sm-6">
+
+                    <div class="about-us-col">
+
+                        <div class="col-icon-wrapper">
+                            <img src="\assets\icons\our-mission-icon.png" alt="">
+                        </div>
+                        <h3 class="col-title">our mission</h3>
+                        <div class="col-details">
+
+                            <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+
+                        </div>
+                        <a href="#" class="btn btn-primary"> Read more </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-3 col-sm-6">
+
+                    <div class="about-us-col">
+
+                        <div class="col-icon-wrapper">
+                            <img src="\assets\icons\make-donation-icon.png" alt="">
+                        </div>
+                        <h3 class="col-title">Make donations</h3>
+                        <div class="col-details">
+
+                            <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+
+                        </div>
+                        <a href="#" class="btn btn-primary"> Read more </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-3 col-sm-6">
+
+                    <div class="about-us-col">
+
+                        <div class="col-icon-wrapper">
+                            <img src="\assets\icons\help-icon.png" alt="">
+                        </div>
+                        <h3 class="col-title">Help & support</h3>
+                        <div class="col-details">
+
+                            <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+
+                        </div>
+                        <a href="#" class="btn btn-primary"> Read more </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-3 col-sm-6">
+
+                    <div class="about-us-col">
+
+                        <div class="col-icon-wrapper">
+                            <img src="\assets\icons\programs-icon.png" alt="">
+                        </div>
+                        <h3 class="col-title">our programs</h3>
+                        <div class="col-details">
+
+                            <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
+
+                        </div>
+                        <a href="#" class="btn btn-primary"> Read more </a>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.about-us -->
+
+    <div class="section-home home-reasons">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <div class="reasons-col animate-onscroll fadeIn">
+
+                        <img src="assets/images/reasons/we-fight-togother.jpg" alt="">
+
+                        <div class="reasons-titles">
+
+                            <h3 class="reasons-title">We fight together</h3>
+                            <h5 class="reason-subtitle">We are humans</h5>
+
+                        </div>
+
+                        <div class="on-hover hidden-xs">
+
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur praesentium, itaque facilis nesciunt ab omnis cumque similique ipsa veritatis perspiciatis, harum ad at nihil molestias, dignissimos sint consequuntur. Officia,
+                                fuga.
+                            </p>
+
+
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur praesentium, itaque facilis nesciunt ab omnis cumque similique ipsa veritatis perspiciatis, harum ad at nihil molestias, dignissimos sint consequuntur. Officia,
+                                fuga.
+                            </p>
+
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur praesentium, itaque facilis nesciunt ab omnis cumque similique ipsa veritatis perspiciatis, harum ad at nihil molestias, dignissimos sint consequuntur. Officia,
+                                fuga.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-6">
+
+                    <div class="reasons-col animate-onscroll fadeIn">
+
+                        <img src="assets/images/reasons/we-care-about.jpg" alt="">
+
+                        <div class="reasons-titles">
+
+                            <h3 class="reasons-title">WE care about others</h3>
+                            <h5 class="reason-subtitle">We are humans</h5>
+
+                        </div>
+
+                        <div class="on-hover hidden-xs">
+
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur praesentium, itaque facilis nesciunt ab omnis cumque similique ipsa veritatis perspiciatis, harum ad at nihil molestias, dignissimos sint consequuntur. Officia,
+                                fuga.
+                            </p>
+
+
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur praesentium, itaque facilis nesciunt ab omnis cumque similique ipsa veritatis perspiciatis, harum ad at nihil molestias, dignissimos sint consequuntur. Officia,
+                                fuga.
+                            </p>
+
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur praesentium, itaque facilis nesciunt ab omnis cumque similique ipsa veritatis perspiciatis, harum ad at nihil molestias, dignissimos sint consequuntur. Officia,
+                                fuga.
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+    <!-- /.home-reasons -->
+
+    <div class="section-home our-causes animate-onscroll fadeIn">
+
+        <div class="container">
+
+            <h2 class="title-style-1">Our Causes <span class="title-under"></span></h2>
+
+            <div class="row">
+
+                <div class="col-md-3 col-sm-6">
+
+                    <div class="cause">
+
+                        <img src="assets/images/causes/cause-hunger.jpg" alt="" class="cause-img">
+
+                        <div class="progress cause-progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+                                10 / 500
+                            </div>
+                        </div>
+
+                        <h4 class="cause-title"><a href="#">HUNGER AND POVERTY </a></h4>
+                        <div class="cause-details">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
+                        </div>
+
+                        <div class="btn-holder text-center">
+
+                            <a target="blank" onclick="onButtonClick()" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow">DONATE NOW</a>
+
+                        </div>
+
+
+
+                    </div>
+                    <!-- /.cause -->
+
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+
+                    <div class="cause">
+
+                        <img src="assets/images/causes/cause-education.jpg" alt="" class="cause-img">
+
+                        <div class="progress cause-progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                400 / 700
+                            </div>
+                        </div>
+
+                        <h4 class="cause-title"><a href="#">EDUCATION AND TRAINING</a></h4>
+                        <div class="cause-details">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
+                        </div>
+
+                        <div class="btn-holder text-center">
+
+                            <a onclick="onButtonClick()" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow">DONATE NOW</a>
+
+                        </div>
+
+
+
+                    </div>
+                    <!-- /.cause -->
+
+                </div>
+
+
+                <div class="col-md-3 col-sm-6">
+
+                    <div class="cause">
+
+                        <img src="assets/images/causes/cause-rights.jpg" alt="" class="cause-img">
+
+                        <div class="progress cause-progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                                400 / 1000
+                            </div>
+                        </div>
+
+                        <h4 class="cause-title"><a href="#">HUMAN RIGHTS</a></h4>
+                        <div class="cause-details">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
+                        </div>
+
+                        <div class="btn-holder text-center">
+
+                            <a onclick="onButtonClick()" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow">DONATE NOW</a>
+
+                        </div>
+
+
+
+                    </div>
+                    <!-- /.cause -->
+
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+
+                    <div class="cause">
+
+                        <img src="assets/images/causes/cause-culture.jpg" alt="" class="cause-img">
+
+                        <div class="progress cause-progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                400 / 700
+                            </div>
+                        </div>
+
+                        <h4 class="cause-title"><a href="#">ARTS AND CULTURE </a></h4>
+                        <div class="cause-details">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla, aliquam quis neque vel, maximus lacinia urna.
+                        </div>
+
+                        <div class="btn-holder text-center">
+
+                            <a onclick="onButtonClick()" class="btn btn-lg btn-secondary hidden-xs bounceInUp animated slow">DONATE NOW</a>
+
+                        </div>
+
+
+
+                    </div>
+                    <!-- /.cause -->
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.our-causes -->
+
+
+
+    <footer>
+
+        <div class="footer-bottom">
+
+            <div class="container text-right">
+                metaeducaotr @ copyrights 2021 - by <a href="http://www.metaeducaotrs.com" target="_blank">metaeducaotr</a>
+            </div>
+        </div>
+
+    </footer>
+    <!-- main-footer -->
+
+
+    <!--  Scripts
+    ================================================== -->
+
+    <!-- jQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"><\/script>')
+    </script>
+
+    <!-- Bootsrap javascript file -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- owl carouseljavascript file -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <!-- Template main javascript -->
+    <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
